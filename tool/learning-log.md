@@ -12,7 +12,7 @@ After checking using `http-server` it was showing the right thing. I also learne
 
 We're in the same day, but I changed the text and position of the text that's shown which is "Hello Kaboom". I tried challenging myself by trying to make the text centered in the middle.
 ### 10/21/24: Day 2
-We are in Day 2 and I'm learnign to add images to the kaboom background. How I tinkered witht this was that I added an image of an actual bean like this![](sprites/beans.png)
+We are in Day 2 and I'm learning to add images to the kaboom background. How I tinkered with this was that I added an image of an actual bean like this![](sprites/beans.png)
 And then I put in the `loadSprite` function which loaded the sprite correctly. Just as long as you put "bean" in the `add[()]` function as well. But the problem was, the bean image was a **fake** png, those evil twerps. Like the last day, I challenged myself by centering the image of the bean. It was a little easier this time.
 
 
