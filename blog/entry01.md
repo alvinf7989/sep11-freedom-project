@@ -7,11 +7,25 @@ Hello everyone! Welcome to my first blog entry for my next **Freedom Project!** 
 Before we talk about the tool I chose, we have to go back to the context we had. Before we were assigned blog entries, we were already given a tool and idea to make out of a tool and Javascript. I chose to make a 2D Platformer using the tool: **Kaboom.js**. So far, on [my Learning Log](tool/learning-log.md), I took 2 days to log in my activity with the tool. And if you look at the date I did these logs in, they don't look that good as my recent log was almost a month from the first log. Now since we have the whole week to finish this entry, I'm just going to create another log. But that's enough blabbering let's go through my logs.
 
 ### Day 1
+So, for Day 1 I decided to start off a little easy and just create a simple template from Kaboom. A Kaboom template displays a checkerboard background with a little tint of gray. So the way I did this was by using a CDN which gives me this code
+```js
+// import kaboom.js
+import kaboom from "https://unpkg.com/kaboom@3000.0.1/dist/kaboom.mjs";
 
+// initialize kaboom context
+kaboom();
+
+// add a piece of text at position (120, 80)
+add([
+    text("hello"),
+    pos(120, 80),
+]);
+```
+With script type being equal to "module". And that's how mI setup my Kaboom canvas. You may also notice there's a code that adds the text and position of said text. The reasoning for the bracket parenthesis group is undefined yet. What I did was change the text from "hello" to "Hello Javascript!" I also challenged myself by trying the set that text to the center using the `pos()` values.
 ### Day 2
 
 ## EDP
-My first step of the Engineering Design Process is...
+My first step of the Engineering Design Process is of course the defining part of the process. However, I'm also using research to figure out how to use Kaboom, so does that mean I'm also on the researching part of the process
 ## Skills
 The skill(s) I have acquired was...
 #### Sources
