@@ -59,7 +59,9 @@ So, what I did was add another `add([])` function which was the same as the firs
 ## EDP
 My first step of the Engineering Design Process is of course the **defining** part of the process. However, I'm also using research to figure out how to use Kaboom, so does that mean I'm also on the _researching_ part of the process?
 ## Skills
-The skill(s) I have acquired was **Debugging**, as I learned to tinker with the `pos()` values as well as tinkering with the `loadSprite()` function. Although it may not seem like that, by changing the image and renaming it to something else, I confirmed that I tinkered with this function.
+The skill I have acquired was **Debugging**, as I learned to tinker with the `pos()` values as well as tinkering with the `loadSprite()` function. Although it may not seem like that, by changing the image and renaming it to something else, I confirmed that I tinkered with this function.
+
+And that concludes my entire entry. This was just the beginning of our Freedom Project. I do wish to remember what we did with all these entries after filling them out with the Freedom Project. But anyways, stay tuned for Entry 2 where I talk about (This is where I put what I will do for entry 2. Since this is unknown we have to leave it blank.) And as always, see ya next time!
 #### Sources
 [How I Made Kaboom Template](tool/day1.html)
 
