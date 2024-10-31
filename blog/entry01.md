@@ -61,6 +61,8 @@ My first step of the Engineering Design Process is of course the **defining** pa
 ## Skills
 The skill I have acquired was **Debugging**, as I learned to tinker with the `pos()` values as well as tinkering with the `loadSprite()` function. Although it may not seem like that, by changing the image and renaming it to something else, I confirmed that I tinkered with this function.
 
+Another skill I have acquired was **How To Learn**, as I also learned how to use these functions like `loadSprite()` and `sprite()` as well as tinker with the values of the positioning, scale & color. I learned stuff like if you put something in the parenthesis of `loadSprite()` you can name a sprite and put a link to the sprite you want to assign the sprite name to.
+
 And that concludes my entire entry. This was just the beginning of our Freedom Project. I do wish to remember what we did with all these entries after filling them out with the Freedom Project. But anyways, stay tuned for Entry 2 where I talk about (This is where I put what I will do for entry 2. Since this is unknown we have to leave it blank.) And as always, see ya next time!
 #### Sources
 [How I Made Kaboom Template](tool/day1.html)
