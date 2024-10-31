@@ -41,18 +41,6 @@ These values are:
 
 With these two added, I was able to make my Kaboom practice a little more complex. I made a code that allows two bean sprites on top of each other in different colors. Here was how my code looked:
 ```js
-
-<script type="module">
-
-    // import kaboom.js
-    import kaboom from "https://unpkg.com/kaboom@3000.0.1/dist/kaboom.mjs";
-
-    // initialize kaboom context
-    kaboom();
-
-    loadSprite("real-bean", "sprites/beans.png")
-
-// add something to screen
 add([
     sprite("real-bean"),
     pos(525, 30),
@@ -66,12 +54,10 @@ add([
     scale(0.75),
     color(25, 155, 255),
 ])
-
-
-    </script>
 ```
+So, what I did was add another `add([])` function which was the same as the first one, but I changed some values of the `color()` & `pos()` values, so that way the sprites would go on top of each other as different colors. This is how it came out ![](../tool/screenshots/daythree.png)
 ## EDP
-My first step of the Engineering Design Process is of course the defining part of the process. However, I'm also using research to figure out how to use Kaboom, so does that mean I'm also on the researching part of the process?
+My first step of the Engineering Design Process is of course the **defining** part of the process. However, I'm also using research to figure out how to use Kaboom, so does that mean I'm also on the _researching_ part of the process?
 ## Skills
 The skill(s) I have acquired was **Debugging**, as I learned to tinker with the `pos()` values as well as tinkering with the `loadSprite()` function. Although it may not seem like that, by changing the image and renaming it to something else, I confirmed that I tinkered with this function.
 #### Sources
