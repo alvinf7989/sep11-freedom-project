@@ -23,11 +23,11 @@ add([
 ```
 With script type being equal to "module". And that's how mI setup my Kaboom canvas. You may also notice there's a code that adds the text and position of said text. The reasoning for the bracket parenthesis group is undefined yet. What I did was change the text from "hello" to "Hello Javascript!" I also challenged myself by trying the set that text to the center using the `pos()` values.
 ### Day 2
-
+On to day 2, which I learned to add images to the Kaboom checkerboard template. What I did was save an actual image of a bean and try to put it in my Kaboom template. But first I put that image in my sprites folder. Then, I took that setup from day 1 and added the `loadSprite()` function which loads in the sprite as long as you name it and put the link in the parenthesis.
 ## EDP
 My first step of the Engineering Design Process is of course the defining part of the process. However, I'm also using research to figure out how to use Kaboom, so does that mean I'm also on the researching part of the process
 ## Skills
-The skill(s) I have acquired was...
+The skill(s) I have acquired was **Debugging**, as I learned to tinker
 #### Sources
 [How I Made Kaboom Template](tool/day1.html)
 [How I Put Images In The Template](tool/day2.html)
