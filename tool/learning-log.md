@@ -26,6 +26,8 @@ add([
 ])
 ```
 I also cloned this `add([])` and give different `color()`, `scale()`, & `pos()` values for them so the template could show the sprites on each other with different colors like this below ![](screenshots/daythree.png)
+
+
 <!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
