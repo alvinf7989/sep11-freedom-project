@@ -7,14 +7,22 @@
     // initialize kaboom context
     kaboom();
 
-    loadSprite("really-real-bean", "sprites/coffee-bean.png")
+    loadSprite("reallyBean", "/sprites/coffee-bean.png")
 
+    setGravity(200)
 // add something to screen
-add([
-    sprite("really-real-bean"),
-    pos(500, 150),
+const play = add([
+    sprite("reallyBean"),
+	pos(center()),
     scale(0.25),
+    area(),
+    body(),
 ])
 
+onKeyPress("space", () => {
+	if (play.isGrounded()) {
+		play.jump()
+	}
+})
 
     </script>

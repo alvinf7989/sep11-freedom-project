@@ -27,6 +27,26 @@ add([
 ```
 I also cloned this `add([])` and give different `color()`, `scale()`, & `pos()` values for them so the template could show the sprites on each other with different colors like this below ![](screenshots/daythree.png)
 
+### 11/18/24: Day 4
+Onto day 4, I made a coffee bean fall today. So, on day 4 I followed a gravity example from [this Javascript Example](https://kaboomjs.com/play?example=gravity). And that's not the only thing I did. I also made the bean finally be able to jump. Here were the chanegs I put to the code.
+```js
+const play = add([
+    sprite("reallyBean"),
+	pos(center()),
+    scale(0.25),
+    area(),
+    body(),
+])
+
+onKeyPress("space", () => {
+	if (play.isGrounded()) {
+		play.jump()
+	}
+})
+```
+So, what I did was try adding `area()` and `body()` to `add([])` function. However, it turns out I had to name that a variable like play for the sprite to work properly. You see, originally I was planning on making the bean jump, but when I pressed space, I got an error message saying that "reallyBean" isn't defined. That's why I used `const play =`.
+
+Now, that I added the Gravity to the bean, it fell off screen. Probably because I didn't put the ground yet. I tinkered with the values of `gravity()` by changing them. When I set the value to 200, the bean fell very slow.
 
 <!--
 * Links you used today (websites, videos, etc)
