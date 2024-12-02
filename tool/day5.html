@@ -1,0 +1,38 @@
+<script type="module">
+
+    // import kaboom.js
+    import kaboom from "https://unpkg.com/kaboom@3000.0.1/dist/kaboom.mjs";
+
+
+    kaboom();
+
+    loadSprite("reallyBean", "/sprites/coffee-bean.png")
+
+    setGravity(1000)
+
+
+const play = add([
+    sprite("reallyBean"),
+	pos(center()),
+    scale(0.25),
+    area(),
+    body(),
+])
+
+
+add([
+    rect(width(), 48),
+    // pos(0, height() - 48),
+    // outline(4),
+    // area(),
+    // body({ isStatic: true }),
+    // color(127, 200, 255),
+])
+
+onKeyPress("space", () => {
+	if (play.isGrounded()) {
+		play.jump()
+	}
+})
+
+    </script>

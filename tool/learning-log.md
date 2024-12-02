@@ -48,6 +48,21 @@ So, what I did was try adding `area()` and `body()` to `add([])` function. Howev
 
 Now, that I added the Gravity to the bean, it fell off screen. Probably because I didn't put the ground yet. I tinkered with the values of `gravity()` by changing them. When I set the value to 200, the bean fell very slow. But when I set the value higher than 2000, the bean fell very fast.
 
+### 12/2/24: Day 5
+Ahh, nothing like Day 5 on December. So, I left off with a coffee bean falling off screen because I didn't set the ground yet. Today is the day I do that. I simply took the code from Kaboom to make the ground:
+```js
+add([
+    rect(width(), 48),
+    pos(0, height() - 48),
+    outline(4),
+    area(),
+    body({ isStatic: true }),
+    color(127, 200, 255),
+])
+```
+First off `rect()` makes a rectangle, `outline()` speaks for itself (it makes an outline) and the `isStatic` that's inside `body({})` makes it so that the platform has no movement and any object that does move will in fact interact with the platform. A way I tinkered this was by uncommenting certain characterisitcs inside the `add([])` like the `body()` and `pos()`. After uncommenting those, my ground was on the top top which still lead the coffee bean to fall off screen. 
+
+
 <!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
