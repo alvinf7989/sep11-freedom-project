@@ -8,7 +8,7 @@
 
     loadSprite("reallyBean", "/sprites/coffee-bean.png")
 
-    setGravity(1320)
+    setGravity(1620)
 
 
 const play = add([
@@ -26,10 +26,21 @@ add([
     outline(4),
     area(),
     body({ isStatic: true }),
-    color(127, 200, 255),
+    color(0, 100, 120),
 ])
 
-onKeyPress("space", () => {
+add([
+    rect(50, 150),
+    area(),
+    outline(4),
+    pos(705, 595),
+    anchor("botleft"),
+    body({ isStatic: true }),
+    color(255, 180, 255),
+    // move(LEFT, 240),
+]);
+
+onKeyPress("w", () => {
 	if (play.isGrounded()) {
 		play.jump()
 	}

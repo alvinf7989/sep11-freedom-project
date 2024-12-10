@@ -62,8 +62,8 @@ add([
 ```
 First off `rect()` makes a rectangle, `outline()` speaks for itself (it makes an outline) and the `isStatic` that's inside `body({})` makes it so that the platform has no movement and any object that does move will in fact interact with the platform. A way I tinkered this was by uncommenting certain characterisitcs inside the `add([])` like the `body()` and `pos()`. After uncommenting those, my ground was on the top which still lead the coffee bean to fall off screen. Turns out if you include the `body()` and `pos()`, the ground will be normal and be on the bottom.
 
-### 12/0/24: Day 6
-For the next day, I learned to move my bean from left and right, just from using 
+### 12/10/24: Day 6
+For the next day, I learned to add an obstacle to my kaboom by following along.
 
 
 <!--
