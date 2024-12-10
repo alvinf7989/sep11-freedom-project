@@ -63,7 +63,19 @@ add([
 First off `rect()` makes a rectangle, `outline()` speaks for itself (it makes an outline) and the `isStatic` that's inside `body({})` makes it so that the platform has no movement and any object that does move will in fact interact with the platform. A way I tinkered this was by uncommenting certain characterisitcs inside the `add([])` like the `body()` and `pos()`. After uncommenting those, my ground was on the top which still lead the coffee bean to fall off screen. Turns out if you include the `body()` and `pos()`, the ground will be normal and be on the bottom.
 
 ### 12/10/24: Day 6
-For the next day, I learned to add an obstacle to my kaboom by following along.
+For the next day, I learned to add an obstacle to my kaboom by following along. What I did first however was make that object go in the middle, so the bean can stand on top of it. This wasn't my initial plan. The first thing I did was take the code from day5.html and add this code from Kaboom:
+```js
+add([
+    rect(48, 64),
+    area(),
+    outline(4),
+    pos(width(), height() - 48),
+    anchor("botleft"),
+    color(255, 180, 255),
+    move(LEFT, 240),
+]);
+```
+
 
 
 <!--
