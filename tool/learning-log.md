@@ -75,7 +75,7 @@ add([
     move(LEFT, 240),
 ]);
 ```
-
+What this did was make the platform move from right to left. After this, I tinkered with the values and uncommented the `move()` method, so it wouldn't move. But the issue was that the platform was no longer there. It must've had something to do with the position, so I tinker
 
 
 <!--
