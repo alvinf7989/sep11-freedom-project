@@ -28,25 +28,25 @@ add([
     body({ isStatic: true }),
     color(0, 100, 120),
 ])
-add([
-    rect(48, 64),
-    area(),
-    outline(4),
-    pos(width(), height() - 48),
-    anchor("botleft"),
-    color(255, 180, 255),
-    // move(LEFT, 240),
-]);
-// add([
-//     rect(50, 150),
-//     area(),
-//     outline(4),
-//     pos(705, 595),
-//     anchor("botleft"),
-//     body({ isStatic: true }),
-//     color(255, 180, 255),
-//     // move(LEFT, 240),
-// ]);
+//add([
+ //   rect(48, 64),
+ //   area(),
+ //   outline(4),
+ //   pos(width(), height() - 48),
+ //   anchor("botleft"),
+ //   color(255, 180, 255),
+ //   // move(LEFT, 240),
+//]);
+ add([
+     rect(50, 150),
+     area(),
+     outline(4),
+     pos(705, 595),
+     anchor("botleft"),
+     body({ isStatic: true }),
+     color(255, 180, 255),
+     // move(LEFT, 240),
+ ]);
 
 onKeyPress("w", () => {
 	if (play.isGrounded()) {
