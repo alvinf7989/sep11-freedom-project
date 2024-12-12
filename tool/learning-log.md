@@ -88,7 +88,7 @@ add([
      // move(LEFT, 240),
  ]);
 ```
-I also changed the `rect()` value and made the rectangle size smaller. Now when this code was placed in `http-server` it showed the rectangle being a block that the coffee bean sprite is standing on.
+I also changed the `rect()` value and made the rectangle size smaller. Now when this code was placed in `http-server` it showed the rectangle being a block that the coffee bean sprite is standing on. 
 <!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
