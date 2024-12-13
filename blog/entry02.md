@@ -25,7 +25,7 @@ add([
     color(127, 200, 255),
 ])
 ```
-and did some tinkering by changing the color values and outline thickness and I'll define some of the functions in here. `body({ isStatic: true })`, (Looks at learning log.) Oops, I think I summarized Day 4 & 5.
+and did some tinkering by changing the color values and outline thickness and I'll define some of the functions in here. `body({ isStatic: true })`, will make the obstacle interactable with the coffee bean sprite. (Looks at learning log.) Oops, I think I summarized Day 4 _&_ 5.
 
 ## Day 6
 On the next day, it was lying on the 10th of December originally, but I also updated it on the 11th. Now that I had my ground placed, I wanted to add an obstacle to it, so I went back to Kaboom after copying my code from day5.html. This was the code that I added:
@@ -40,11 +40,11 @@ add([
     move(LEFT, 240),
 ]);
 ```
-This on its own created a platform that moved from left to right, but I did a good old-fashioned thing called tinkering and changed the values as well as uncommenting the `move()` function because I just wanted a platform to go on the ground and have the bean land on it.
+This on its own created a platform that moved from left to right, but I did a good old-fashioned thing called tinkering and changed the values as well as uncommenting the `move()` function because I just wanted a platform to go on the ground and have the bean land on it. I did do some changes to the rectangle shape and positioning. For example `pos()` no longer has a complex value, as I gave it a simpler one. After using `http-server` this successfully worked and my bean fell on the obstacle that I created. I also did a small feature
 ## My Goal
 
 ## EDP
-I am now fully into the **Researching** Part of the Engineering Design Process. I used a lot of Kaboom.js to learn how to make obstacles and make my coffee bean move from the user control.
+I am now fully into the **Researching** Part of the Engineering Design Process. I used a lot of Kaboom.js to learn how to make obstacles and make my coffee bean move from the user control. The thing that I'm wondering is, what do I have to do to get to the Brainstorming part of the process?
 ## Skills
 * **Embracing Failure:** When I had these coding issues with the practices on my Kaboom files, I took one step at a time and learned that that one mistake could be helpful for me to learn. For example, when I had an error that my sprite name wasn't defined I learned that I actually forgot to declare a variable called play and set it equal to the added sprite
 * **Attention To Detail:**

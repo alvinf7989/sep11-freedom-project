@@ -75,7 +75,7 @@ add([
     move(LEFT, 240),
 ]);
 ```
-What this did was make the platform move from right to left. After this, I tinkered with the values and uncommented the `move()` method, so it wouldn't move. But the issue was that the platform was no longer there. It must've had something to do with the position, so I tinkered with the position, by changing it to be at the center. I then afterwards used `body({ isStatic: true })` to make the obstacle interact with the bean. This was my tinkered code:
+What this did was make the platform move from right to left. After this, I tinkered with the values and uncommented the `move()` method, so it wouldn't move. But the issue was that the platform was no longer there. It must've had something to do with the position, so I tinkered with the position, by changing it to be at the center. I then afterwards used `body({ isStatic: true })` to make the obstacle interactable with the bean. This was my tinkered code:
 ```js
 add([
      rect(50, 150),
@@ -88,7 +88,7 @@ add([
      // move(LEFT, 240),
  ]);
 ```
-I also changed the `rect()` value and made the rectangle size smaller. Now when this code was placed in `http-server` it showed the rectangle being a block that the coffee bean sprite is standing on. 
+I also changed the `rect()` value and made the rectangle size smaller. Now when this code was placed in `http-server` it showed the rectangle being a block that the coffee bean sprite is standing on.
 <!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
