@@ -13,7 +13,7 @@
 
 const play = add([
     sprite("reallyBean"),
-	pos(center()),
+	pos(center(1000)),
     scale(0.25),
     area(),
     body(),
@@ -28,20 +28,20 @@ add([
     body({ isStatic: true }),
     color(0, 100, 120),
 ])
-//add([
- //   rect(48, 64),
- //   area(),
- //   outline(4),
- //   pos(width(), height() - 48),
- //   anchor("botleft"),
- //   color(255, 180, 255),
- //   // move(LEFT, 240),
-//]);
+// add([
+//     rect(48, 64),
+//     area(),
+//     outline(4),
+//     pos(width(), height() - 48),
+//     anchor("botleft"),
+//     color(255, 180, 255),
+//     // move(LEFT, 240),
+// ]);
  add([
-     rect(50, 150),
+     rect(64, 64),
      area(),
      outline(4),
-     pos(705, 595),
+     pos(780, 647),
      anchor("botleft"),
      body({ isStatic: true }),
      color(255, 180, 255),

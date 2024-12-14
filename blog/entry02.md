@@ -40,16 +40,29 @@ add([
     move(LEFT, 240),
 ]);
 ```
-This on its own created a platform that moved from left to right, but I did a good old-fashioned thing called tinkering and changed the values as well as uncommenting the `move()` function because I just wanted a platform to go on the ground and have the bean land on it. I did do some changes to the rectangle shape and positioning. For example `pos()` no longer has a complex value, as I gave it a simpler one. After using `http-server` this successfully worked and my bean fell on the obstacle that I created. I also did a small feature
+This on its own created a platform that moved from left to right, but I did a good old-fashioned thing called tinkering and changed the values as well as uncommenting the `move()` function because I just wanted a platform to go on the ground and have the bean land on it. I did do some changes to the rectangle shape and positioning. For example `pos()` no longer has a complex value, as I gave it a simpler one. After using `http-server` this successfully worked and my bean fell on the obstacle that I created. I also did a small feature and made it so you would press the W key to jump instead of the spacebar.
 ## My Goal
-
+Now we get to the goal that we all should have by the end of December, as we could be talking about it on the next blog entry. What I plan to have complete by the end of this year is to at least know how to make obstacles and sprites move the way I want to using other websites than Kaboom. And if I have enough time, I can try to fully understand all the functions in the Kaboom.js website or make the dinosaur jump type game example as shown in Kaboom.js.
 ## EDP
 I am now fully into the **Researching** Part of the Engineering Design Process. I used a lot of Kaboom.js to learn how to make obstacles and make my coffee bean move from the user control. The thing that I'm wondering is, what do I have to do to get to the Brainstorming part of the process?
 ## Skills
-* **Embracing Failure:** When I had these coding issues with the practices on my Kaboom files, I took one step at a time and learned that that one mistake could be helpful for me to learn. For example, when I had an error that my sprite name wasn't defined I learned that I actually forgot to declare a variable called play and set it equal to the added sprite
-* **Attention To Detail:**
+* **Embracing Failure & Debugging:** When I had these coding issues with the practices on my Kaboom files, I took one step at a time and learned that that one mistake could be helpful for me to learn. For example, when I had an error that my sprite name wasn't defined I learned that I actually forgot to declare a variable called play and set it equal to the added sprite. This enhanced by skill of Debugging as well.
+* **Attention To Detail:** While, I noticed some mistakes on my code, it was also because I need to look closely at the codes. That's how I forgot `const play =` in the first place when making my coffee bean sprite work properly when I hit space or w. UPDATE: When I tested `http-server` it was no longer showing the correct rectangle, so I changed my code some more on day6.html. Here's how the code looks now.
+```js
+add([
+     rect(64, 64),
+     area(),
+     outline(4),
+     pos(780, 647),
+     anchor("botleft"),
+     body({ isStatic: true }),
+     color(255, 180, 255),
+     // move(LEFT, 240),
+ ]);
+ ```
+
+I think that wraps this blog entry. If only I could do these as I make progress on my learning log and Freedom Project. If I can do that on the wrteups, surely I can do it on the blog entries. You know what? That's another goal of mine. I do have to say that I've learned a lot with Kaboom, but sometimes that can be difficult, but not if you acquire the skill of embracing failure, debugging and problem decomposition. I have had 6 days of practice with Kaboom, and I want to fond out how I can find ways to practice. At least, Christmas Break is coming, so maybe I can do that then. But until next time. Goodbye & Have a Happy Holiday!
 ## Sources
-[The Kaboom Website](https://kaboomjs.com/)
 
 [The Part of the Website I Mostly Followed](https://kaboomjs.com/doc/intro)
 
