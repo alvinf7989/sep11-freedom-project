@@ -89,6 +89,35 @@ add([
  ]);
 ```
 I also changed the `rect()` value and made the rectangle size smaller. Now when this code was placed in `http-server` it showed the rectangle being a block that the coffee bean sprite is standing on.
+
+### 12/16/24: Day 7
+We are now on Day 7 and I gotta say I've been having the problem with my results. For some reason whenever I'm using my personal computer to find a result, it isn't the same as my chromebook result. This is the day that I learned something.
+```js
+add([
+     rect(64, 64),
+     area(),
+     outline(4),
+     pos(780, 647),
+     anchor("botleft"),
+     body({ isStatic: true }),
+     color(255, 180, 255),
+     // move(LEFT, 240),
+ ]);
+ ```
+ Here you'll see a code from my previou day and the problem that I discovered was with the `pos()` values. You see, the first value of the positioning determines which side from left to right the obstacle goes on while the second value determines where in terms of top to bottom the obstacle goes. These both vary depending on what size screen of device you're using. I learned how to make the x value of positioning centered on any screen. To do this, I simply divided the `width()` by 2 because to find the middle value you must divide the wideness of something in half to find the quotient which will be your middle value. After doing this it worked successfully. but the height was different when I tested it on my chromebook. So, I thought what if I divided the `height()` by 2 as well to balance oiut the height. Well first off, that did work as well, but it was directly at the center and I wanted to be somewhere in the bottom. So I tried dividing by 4, but that got my obstacle higher, so I then thought maybe if I multiply it by the fraction of 4 it will be brought down. This was my code after the changes.
+ ```js
+ add([
+     rect(64, 64),
+     area(),
+     outline(4),
+     pos(width()/2, height()*0.75),
+     anchor("botleft"),
+     body({ isStatic: true }),
+     color(255, 180, 255),
+     // move(LEFT, 240),
+ ]);
+ ```
+ This was able to work correctly and go somewhere in the bottom
 <!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
