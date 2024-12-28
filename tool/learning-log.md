@@ -117,7 +117,19 @@ add([
      // move(LEFT, 240),
  ]);
  ```
- This was able to work correctly and go somewhere in the bottom
+ This was able to work correctly and go somewhere in the bottom.
+ ### 12/28/24
+ This could be the last day I tinker with my tool on 2024. (I'll tinker more on 2025 though.) I did notice that my centered bean had a different position on my devices. While, the obstacle was able to in the same position for all my screens. I did this on my computer and sometimes the bean just disappears or falls off the obstacle. So I decided to change the `pos()` value of the sprite landing to the same values as the positioning of the obstacle, but I tinkered with the numbers the `width()` and `height()` would be divided by.
+ ```js
+const play = add([
+    sprite("reallyBean"),
+	pos(width()/2.05, height()/4),
+    scale(0.25),
+    area(),
+    body(),
+])
+```
+So, what I did here was divide the height by 4 so it can be higher and not too close to the obstacle. After testing this out, this successfully worked. But, I also wanted to center the bean more on any screen. And that's when I decided to change the number the `width()` would be divided by and when I increased it by 0.05, it went more to the right and successfully landed on the obstacle center.
 <!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
