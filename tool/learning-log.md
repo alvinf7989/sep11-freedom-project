@@ -118,7 +118,7 @@ add([
  ]);
  ```
  This was able to work correctly and go somewhere in the bottom.
- ### 12/28/24
+ ### 12/28/24: Day 8
  This could be the last day I tinker with my tool on 2024. (I'll tinker more on 2025 though.) I did notice that my centered bean had a different position on my devices. While, the obstacle was able to in the same position for all my screens. I did this on my computer and sometimes the bean just disappears or falls off the obstacle. So I decided to change the `pos()` value of the sprite landing to the same values as the positioning of the obstacle, but I tinkered with the numbers the `width()` and `height()` would be divided by.
  ```js
 const play = add([
@@ -130,6 +130,21 @@ const play = add([
 ])
 ```
 So, what I did here was divide the height by 4 so it can be higher and not too close to the obstacle. After testing this out, this successfully worked. But, I also wanted to center the bean more on any screen. And that's when I decided to change the number the `width()` would be divided by and when I increased it by 0.05, it went more to the right and successfully landed on the obstacle center.
+
+### 1/6/24: Day 9
+New Year, new day to work on my tool. So, what I did was work more on the event function known as: `onkeydown()`. What this function did was allow the sprite to commit an action whenever a key was held down. I tried this with my sprite using this code.
+```js
+onKeyDown("left", () => {
+    play.move(-100, 0)
+})
+
+onKeyDown("right", () => {
+    play.move(0, 100)
+})
+```
+This would allow my sprite to move left and right when I click the left and right arrows on my keyboard. But when I did `http-server`, I noticed it was only moving left and not right and that's okay. Remember, it's important to embrace failure. I then realized that since the first value of `onKeyDown("right")`'s `play.move` was zero. Turns out if you change the value to be negative, it will move left. So I changed it to 100 and left the second value at zero, and it was able to move left and right successfully.
+
+Also, to make things more organized, instead of having to press "w" to make the sprite jump, I had the "up" arrow be pressed to make the sprite jump. I just put the word up in the `onKeyPress`.
 <!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
