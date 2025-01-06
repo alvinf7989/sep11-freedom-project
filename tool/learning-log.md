@@ -132,7 +132,7 @@ const play = add([
 So, what I did here was divide the height by 4 so it can be higher and not too close to the obstacle. After testing this out, this successfully worked. But, I also wanted to center the bean more on any screen. And that's when I decided to change the number the `width()` would be divided by and when I increased it by 0.05, it went more to the right and successfully landed on the obstacle center.
 
 ### 1/6/24: Day 9
-New Year, new day to work on my tool. So, what I did was work more on the event function known as: `onkeydown()`. What this function did was allow the sprite to commit an action whenever a key was held down. I tried this with my sprite using this code.
+New Year, new day to work on my tool, so let's start. So, what I did was work more on the event function known as: `onkeydown()`. What this function did was allow the sprite to commit an action whenever a key was held down. I tried this with my sprite using this code.
 ```js
 onKeyDown("left", () => {
     play.move(-100, 0)
