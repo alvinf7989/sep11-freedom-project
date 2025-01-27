@@ -17,6 +17,17 @@ So I thought to myself, what if I divide the `height()` by 2 as well? Well, that
 I realize that when dividing the height by bigger numbers over 1, it will make the obstacle's height increase up and when dividing the height by 1 over big numbers, it will make the obstacle's height decrease down.
 
 ## Day 8
+Day 8 was known as the last tinkering day of 2024. But, that doesn't mean this is my final day because I continued in 2025. For this one, while the platform was touching the floor centered on all devices, the same didn't go for the coffee bean sprite. Not to mention, it also disappears or falls off the obstacle when tested in my personal laptop. So, I thought to myself, what if I can just give the `pos()` the same values as the obstacle position value and have `width()` & `height()` values be divided by values that are different from the obstacle positions. Here's how this looks:
+```js
+const play = add([
+    sprite("reallyBean"),
+	pos(width()/2.05, height()/4),
+    scale(0.25),
+    area(),
+    body(),
+])
+```
+So, first things first, I divided the height by 4 to make the bean sprite a lot higher than it was before and farther from the obstacle to prevent disappearance or falling off. However, I decided to do more and increase what the `width()` value was being divided by from 2 to 2.05. Afterwards, it was successful and the object landed on the obstacle for any screen.
 
 [Previous](entry02.md) | [Next](entry04.md)
 
