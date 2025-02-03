@@ -45,7 +45,26 @@ In case you forgot, `play` is the name of my coffee bean sprite. What this would
 This is when I learned that making the first value negative will more likely move left. After changing the first value to be positive 100 an the last value at zero. The sprite successfully moved left and right. In addition, to make things organized, instead of pressing w to make the sprite jump, I had it press the up arrow key to jump. Now, how did I do that? Simple, I just put the word up in the `onKeyPress`.
 
 ## UPDATE:
-This header means that I will discuss an update on how my FP Goal I stated on Winter Break went. So, my goal here is
+This header means that I will discuss an update on how my FP Goal I stated on Winter Break went. So, my goal was to at least make obstacles and sprites move the way I want to. Well, I was able to make the movement of my sprite the way I want it to by letting the users move the sprite with arrow keys. And remember, when I said I wanted to understand all the functions displayed at Kaboom? Well I learned `onKeyDown` which was a function that lets users make a sprite commit an action whenever a key was held down.
+
+I also said I wanted to use other websites than Kaboom, which makes no sense considering that's my only tool. I should've said I plan to watch Youtube tutorials on Kaboom.
+
+## EDP
+I am currently Brainstorming my goals and figuring out what to do to complete them. Previously, I was wondering what I had to do in order to reach the Brainstorm part of the Engineering Design Process and here we are now, where I have no clue if this is the **Brainstorm** part of the process.
+
+## Skills
+
+
+## Sources
+
+[The Part of the Website I Mostly Followed](https://kaboomjs.com/doc/intro)
+
+[How I made the obstacle responsive on any screen](tool/day7.html)
+
+[How I made my sprite responsive on any screen](tool/day8.html)
+
+[How I made my sprite move left & right](tool/day9.html)
+
 
 [Previous](entry02.md) | [Next](entry04.md)
 
