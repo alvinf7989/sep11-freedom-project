@@ -142,7 +142,7 @@ onKeyDown("right", () => {
     play.move(0, 100)
 })
 ```
-This would allow my sprite to move left and right when I click the left and right arrows on my keyboard. But when I did `http-server`, I noticed it was only moving left and not right and that's okay. Remember, it's important to embrace failure. I then realized that since the first value of `onKeyDown("right")`'s `play.move` was zero. Turns out if you change the value to be negative, it will move left. So I changed it to 100 and left the second value at zero, and it was able to move left and right successfully.
+This would allow my sprite to move left and right when I click the left and right arrows on my keyboard. But when I did `http-server`, I noticed it was only moving left and not right and that's okay. Remember, it's important to embrace failure. I then realized that since the first value of `onKeyDown("right")`'s `play.move` was zero, it didn't have the speed to move. Turns out if you change the value to be negative, it will move left. So I changed it to 100 and left the second value at zero, and it was able to move left and right successfully.
 
 Also, to make things more organized, instead of having to press "w" to make the sprite jump, I had the "up" arrow be pressed to make the sprite jump. I just put the word up in the `onKeyPress`.
 <!--

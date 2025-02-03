@@ -29,6 +29,24 @@ const play = add([
 ```
 So, first things first, I divided the height by 4 to make the bean sprite a lot higher than it was before and farther from the obstacle to prevent disappearance or falling off. However, I decided to do more and increase what the `width()` value was being divided by from 2 to 2.05. Afterwards, it was successful and the object landed on the obstacle for any screen.
 
+## Day 9
+This day was the first day I worked on my tool in 2025. This was when I learned a new event function: `onKeyDown`. This function allowed the user to commit an action on the sprite whenever a key on your keyboard was held down. This function was what I put in the sprite and it looked something like this:
+```js
+onKeyDown("left", () => {
+    play.move(-100, 0)
+})
+
+onKeyDown("right", () => {
+    play.move(0, 100)
+})
+```
+In case you forgot, `play` is the name of my coffee bean sprite. What this would do was allow the user to make the sprite move left and right by pressing the left and right arrow keys. The one problem, when I tried `http-server` on my IDE, the sprite only seemed to just move left. Then I said to myself, "I must embrace failure, it's one of my skills." After seeing the values next to `.move()` in `onKeyDown("right")`, I noticed that because both values were zero, the sprite doesn't have the speed to move to the right, when the user holds down on the right key.
+
+This is when I learned that making the first value negative will more likely move left. After changing the first value to be positive 100 an the last value at zero. The sprite successfully moved left and right. In addition, to make things organized, instead of pressing w to make the sprite jump, I had it press the up arrow key to jump. Now, how did I do that? Simple, I just put the word up in the `onKeyPress`.
+
+## UPDATE:
+This header means that I will discuss an update on how my FP Goal I stated on Winter Break went. So, my goal here is
+
 [Previous](entry02.md) | [Next](entry04.md)
 
 [Home](../README.md)
