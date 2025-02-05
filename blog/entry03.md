@@ -53,7 +53,9 @@ I also said I wanted to use other websites than Kaboom, which makes no sense con
 I am currently Brainstorming my goals and figuring out what to do to complete them. Previously, I was wondering what I had to do in order to reach the Brainstorm part of the Engineering Design Process and here we are now, where I have no clue if this is the **Brainstorm** part of the process.
 
 ## Skills
+**Time Management**: This is a skill I actually did use on some days of working on my tool weekly. Sometimes, I work on my tool two times a week. There was a time during Winter Break where I did practice my tool and that was when I was learning how to make `width()` & `height()` the same for my bean when it falls off the starting point in any screen size.
 
+**UPDATE on Embracing Failure**: 
 
 ## Sources
 
@@ -64,6 +66,8 @@ I am currently Brainstorming my goals and figuring out what to do to complete th
 [How I made my sprite responsive on any screen](tool/day8.html)
 
 [How I made my sprite move left & right](tool/day9.html)
+
+[My Learning Log](tool/learning-log.md)
 
 
 [Previous](entry02.md) | [Next](entry04.md)
