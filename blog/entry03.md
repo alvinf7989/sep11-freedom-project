@@ -55,7 +55,9 @@ I am currently Brainstorming my goals and figuring out what to do to complete th
 ## Skills
 **Time Management**: This is a skill I actually did use on some days of working on my tool weekly. Sometimes, I work on my tool two times a week. There was a time during Winter Break where I did practice my tool and that was when I was learning how to make `width()` & `height()` the same for my bean when it falls off the starting point in any screen size.
 
-**UPDATE on Embracing Failure**: 
+**UPDATE on Embracing Failure**: So, my Embracing Failure skill has an update. This time, I'll talk about it very specifically. I was Embracing Failure yet again in Day 9, when I was testing out a Kaboom function called `onKeyDown` where I try to make my sprite move left and right. I embraced failure when I noticed my sprite was only moving left and not right. Afterwards, I tried tinkering with the values and it was a success.
+<hr>
+Anyways, that wraps up my 3rd Blog entry of the Freedom Project. I don't know how many entries will do for this one. But, you can stay tuned for the next blog entries, where I put up an update of my Freedom Project goal of understanding all of Kaboom's functions. But, until next time. Bye!
 
 ## Sources
 
