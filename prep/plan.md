@@ -1,7 +1,7 @@
 # Plan
 
-## Tool: 
-## Product: 
+## Tool: Kaboom.js
+## Product: 2D Platformer
 
 ---
 
@@ -9,13 +9,16 @@
 
 #### MVP
 
-- [ ] Task (deadline: X)
-  - [ ] Subtask (deadline: X)
+- [ ] Create Level (deadline: 4/11)
+  - [ ] Create a Sprite in Paint 3D and send it to my DOE Acoount (deadline: 3/1)
+  - [ ] Create Obstacles (deadline: 3/20)
+  - [ ] Make my sprite be interactable by user (deadline: 3/10)
+  - [ ] Create background in Paint 3D and send it to my DOE Account (deadline: 4/1)
 
 #### Beyond MVP
 
-- [ ] Task
-  - [ ] Subtask
+- [ ] Create Background Music in Fl Studio
+- [ ] Create Obstacles in Paint 3d
 
 
 <!-- EXAMPLE
