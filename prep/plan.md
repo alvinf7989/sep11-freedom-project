@@ -17,7 +17,7 @@
 
 #### Beyond MVP
 
-- [ ] Create Background Music in Fl Studio
+- [ ] Create Background Music in FL Studio
 - [ ] Create Obstacles in Paint 3d
 
 
