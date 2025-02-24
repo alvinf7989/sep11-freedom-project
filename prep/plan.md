@@ -10,15 +10,15 @@
 #### MVP
 
 - [ ] Create Level (deadline: 4/11)
-  - [ ] Create a Sprite in Paint 3D and send it to my DOE Acoount (deadline: 3/1)
+  - [ ] Create a Sprite in Photoshop and send it to my DOE Acoount (deadline: 3/1)
   - [ ] Create Obstacles using Kaboom (deadline: 3/20)
   - [ ] Make my sprite be interactable by user (deadline: 3/10)
-  - [ ] Create background in Paint 3D and send it to my DOE Account (deadline: 4/1)
+  - [ ] Create background in Photoshop and send it to my DOE Account (deadline: 4/1)
 
 #### Beyond MVP
 
 - [ ] Create Background Music in Fl Studio
-- [ ] Create Unique Obstacles in Paint 3d
+- [ ] Create Unique Obstacles in Photoshop
 
 
 <!-- EXAMPLE
