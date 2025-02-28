@@ -25,14 +25,53 @@
             import kaboom from "https://unpkg.com/kaboom@3000.0.1/dist/kaboom.mjs";
             kaboom();
 
-            add([
-            rect(width() - 134, 64),
+var movePlatform2 = add([
+            rect(104, 104),
             area(),
             outline(4),
-            pos(0, height() - 48),
+            pos(width()/2.25, height()*0.75),
+            anchor("botleft"),
             body({ isStatic: true }),
-            color(255, 0, 0),
-])
+            color(250, 0, 0),
+            // move(LEFT, 240),
+ ]);
+
+ var movePlatform1 = add([
+            rect(104, 104),
+            area(),
+            outline(4),
+            pos(width()/3.5, height()*0.75),
+            anchor("botleft"),
+            body({ isStatic: true }),
+            color(250, 0, 0),
+            // move(LEFT, 240),
+ ]);
+
+ var movePlatform3 = add([
+            rect(104, 104),
+            area(),
+            outline(4),
+            pos(width()/1.70, height()*0.75),
+            anchor("botleft"),
+            body({ isStatic: true }),
+            color(250, 0, 0),
+            // move(LEFT, 240),
+ ]);
+
+
+
+ onKeyDown("a", () => {
+		movePlatform1.move(-200, 0)
+        movePlatform2.move(-200, 0)
+        movePlatform3.move(-200, 0)
+})
+
+onKeyDown("d", () => {
+		movePlatform1.move(200, 0)
+        movePlatform2.move(200, 0)
+        movePlatform3.move(200, 0)
+})
+
 
         </script>
     </body>
