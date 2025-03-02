@@ -147,6 +147,38 @@ This would allow my sprite to move left and right when I click the left and righ
 Also, to make things more organized, instead of having to press "w" to make the sprite jump, I had the "up" arrow be pressed to make the sprite jump. I just put the word up in the `onKeyPress`.
 
 #### 2/28/25
+I am back after Day 9, but instead of working with my tool, I'm starting on creating my project. So, I first set up a plan for this Project. This plan was to create a simple level for my 2D Platformer Project. What's different about my project is that instead of moving the sprite, the user has to move the obstacles and the player has to jump and not fall off. I broke this plan into few objectives.
+* Create Obstacles
+* Create Sprite
+* Make sprite interactable
+* Create background
+This was how I decomposed this plan.
+
+As for the creating of the project, I defined three variables that all represent different platforms. Right now, they're all red. and have the following properties:
+```js
+            rect(104, 104),
+            area(),
+            outline(4),
+            pos(width()/3.5, height()*0.75),
+            anchor("botleft"),
+            body({ isStatic: true }),
+            color(250, 0, 0),
+```
+These are all nested in an `add([])` function and the `pos()` value varies on other platforms. What popped up as a result were three big squares that I can move with the "a" (left) key and the "d" (right) key. Now how did I do that? I just used the `onKeyDown` concept along with `.move` for all those platforms like this:
+```js
+ onKeyDown("a", () => {
+		movePlatform1.move(-200, 0)
+        movePlatform2.move(-200, 0)
+        movePlatform3.move(-200, 0)
+})
+
+onKeyDown("d", () => {
+		movePlatform1.move(200, 0)
+        movePlatform2.move(200, 0)
+        movePlatform3.move(200, 0)
+})
+```
+I also made the platforms move faster by upping the speed 100 more than the speed given on my practice tool files.
 <!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
