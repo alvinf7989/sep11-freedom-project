@@ -179,6 +179,24 @@ onKeyDown("d", () => {
 })
 ```
 I also made the platforms move faster by upping the speed 100 more than the speed given on my practice tool files.
+
+#### 3/3/25
+Alright, it's a new day and I finally created my sprite. So, I created a sprite in Adobe Photoshop for the users to play as as part of my plan for this Freedom project. This sprite represents a snail with a colored shell along with legs that have wheels on them. Now, I put this sprite in my `index.html` by using the `loadSprite()` concept. I called it "snailroller" along with naming the source of the photo, like this:
+```js
+            loadSprite("snailroller", "mysprite.png")
+            setGravity(1650)
+```
+I did also set the gravity to 1650 from one of my practice files. Then, I gave the sprite the same properties and values as the coffee bean sprite from the practice files and made that the variable called "player".
+```js
+            var player = add([
+            sprite("snailroller"),
+            body({ isStatic: true }),
+            pos(width()/2.25, height()/4),
+            scale(0.25),
+            area(),
+            ])
+```
+
 <!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
