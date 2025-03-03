@@ -17,7 +17,7 @@
 
 #### Beyond MVP
 
-- [ ] Create Background Music in Fl Studio/Ableton
+- [ ] Create Background Music using Ableton Live
 - [ ] Create Unique Obstacles in Photoshop
 - [ ] Create Bakcground in Photoshop and send it to my DOE Account
 
