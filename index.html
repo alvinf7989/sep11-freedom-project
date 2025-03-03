@@ -24,6 +24,18 @@
             // JS
             import kaboom from "https://unpkg.com/kaboom@3000.0.1/dist/kaboom.mjs";
             kaboom();
+            loadSprite("snailroller", "mysprite.png")
+            setGravity(1650)
+
+            var player = add([
+            sprite("snailroller"),
+            body({ isStatic: true }),
+            pos(width()/2.25, height()/4),
+            scale(0.25),
+            area(),
+            ])
+
+
 
 var movePlatform2 = add([
             rect(104, 104),
