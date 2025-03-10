@@ -146,7 +146,7 @@ This would allow my sprite to move left and right when I click the left and righ
 
 Also, to make things more organized, instead of having to press "w" to make the sprite jump, I had the "up" arrow be pressed to make the sprite jump. I just put the word up in the `onKeyPress`.
 
-#### 2/28/25
+#### 2/28/25: Working On Project (Day 1)
 I am back after Day 9, but instead of working with my tool, I'm starting on creating my project. So, I first set up a plan for this Project. This plan was to create a simple level for my 2D Platformer Project. What's different about my project is that instead of moving the sprite, the user has to move the obstacles and the player has to jump and not fall off. I broke this plan into few objectives.
 * Create Obstacles
 * Create Sprite
@@ -180,7 +180,7 @@ onKeyDown("d", () => {
 ```
 I also made the platforms move faster by upping the speed 100 more than the speed given on my practice tool files.
 
-#### 3/3/25
+#### 3/3/25 Working On Project (Day 2)
 Alright, it's a new day and I finally created my sprite. So, I created a sprite in Adobe Photoshop for the users to play as as part of my plan for this Freedom project. This sprite represents a snail with a colored shell along with legs that have wheels on them. Now, I put this sprite in my `index.html` by using the `loadSprite()` concept. I called it "snailroller" along with naming the source of the photo, like this:
 ```js
             loadSprite("snailroller", "mysprite.png")
