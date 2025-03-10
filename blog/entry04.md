@@ -12,12 +12,28 @@ Before I got to working, I created a plan for my project on MVP & Beyond. The pl
 * [ ] Make my sprite be interactable by user (deadline: 3/15)
 * [ ] Create background (deadline: 4/1)
 
-The first two of these steps are currently done, but I do have steps for beyond MVP:
+The first two of these steps are currently done, that's why those two are checked with an x. But I do have steps for beyond MVP:
 * Create Background Music using Ableton Live
 * Create Unique Obstacles in Photoshop
 * Create Background in Photoshop
 
-Yeah, I wanted to use a lot of other apps to put into my project.
+Yeah, I wanted to use a lot of other apps to put into my project. Now that I'm done with talking about my plan, let's get to those two days on my Freedom Project.
+
+## Working On Project (Day 1)
+So on day 1 of working on my project I wrote that I decomposed my plan. Now in the creating process I created three big red square platforms. I put all these platforms in variables because I wanted them to move which we'll get to later on. Here's the properties of all those platforms:
+```js
+ var movePlatform1 = add([
+            rect(104, 104),
+            area(),
+            outline(4),
+            pos(width()/3.5, height()*0.75),
+            anchor("botleft"),
+            body({ isStatic: true }),
+            color(250, 0, 0),
+            // move(LEFT, 240),
+ ]);
+```
+The `pos()` alters in every other variable.
 
 
 [Previous](entry03.md) | [Next](entry05.md)
