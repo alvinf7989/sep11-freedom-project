@@ -33,7 +33,7 @@ So on day 1 of working on my project I wrote that I decomposed my plan. Now in t
             // move(LEFT, 240),
  ]);
 ```
-The `pos()` alters in every other variable.
+The `pos()` alters in every other variable. Now I'll talk about how I made these two platforms move. So what I did was take all three of those variables that represent the platforms and use the `onKeyDown` concept to make them interactable when the user presses the keys "a" (left) & "d" (right). Since I wanted to make the platforms, I use the `.move()` concept to do so with the parameters being `-200` to move left and `200` to move right. These two numbers are always on the first number because in a way it represents x in x & y.
 
 
 [Previous](entry03.md) | [Next](entry05.md)
