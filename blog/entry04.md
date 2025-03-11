@@ -33,7 +33,43 @@ So on day 1 of working on my project I wrote that I decomposed my plan. Now in t
             // move(LEFT, 240),
  ]);
 ```
-The `pos()` alters in every other variable. Now I'll talk about how I made these two platforms move. So what I did was take all three of those variables that represent the platforms and use the `onKeyDown` concept to make them interactable when the user presses the keys "a" (left) & "d" (right). Since I wanted to make the platforms, I use the `.move()` concept to do so with the parameters being `-200` to move left and `200` to move right. These two numbers are always on the first number because in a way it represents x in x & y.
+The `pos()` alters in every other variable. Now I'll talk about how I made these two platforms move. So what I did was take all three of those variables that represent the platforms and use the `onKeyDown` concept to make them interactable when the user presses the keys "a" (left) & "d" (right). Since I wanted to make the platforms, I use the `.move()` concept to do so with the parameters being `-200` to move left and `200` to move right. These two numbers are always on the first number because in a way it represents x in x & y. This is the code I just explained:
+```js
+ onKeyDown("a", () => {
+		movePlatform1.move(-200, 0)
+        movePlatform2.move(-200, 0)
+        movePlatform3.move(-200, 0)
+})
+
+onKeyDown("d", () => {
+		movePlatform1.move(200, 0)
+        movePlatform2.move(200, 0)
+        movePlatform3.move(200, 0)
+})
+```
+Maybe on the next workday, I can learn to use the y value on `.move()` to make my sprite jump. Speaking of which...
+## Working On Project (Day 2)
+Another workday on my project was the first day I finally created my sprite. Now unlike my practice tool files, I didn't use a ranodm image to set as a sprite. Instead, I created my own sprite from scratch using Adobe Photoshop. This sprite is a snail that has a colored shell and has legs which have wheels on them. Now I saved this sprite and put it in my freedom project directory. That way I can load my sprite like this:
+```js
+loadSprite("snailroller", "mysprite.png")
+            setGravity(1650)
+```
+Keep in mind, the 1st value is the what I name the sprite, and the second value is the name of the photo file.
+
+I had to set the gravity to a number that's good enough for the sprite to fall at. Then, I did the same thing with the platforms and put the properties of the sprite in the variable using `add([])`. The property values are like the coffee bean sprite from my practice tool but the `pos()` value is different, see:
+```js
+            var player = add([
+            sprite("snailroller"),
+            body({ isStatic: true }),
+            pos(width()/2.25, height()/4),
+            scale(0.25),
+            area(),
+            ])
+```
+This concludes all the current workdays for this blog entry, I hope to see more in the 5th entry.
+
+## 
+
 
 
 [Previous](entry03.md) | [Next](entry05.md)
