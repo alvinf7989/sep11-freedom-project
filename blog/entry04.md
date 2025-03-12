@@ -68,7 +68,23 @@ I had to set the gravity to a number that's good enough for the sprite to fall a
 ```
 This concludes all the current workdays for this blog entry, I hope to see more in the 5th entry.
 
-## 
+## EDP
+My apologies for how short these workdays were. But, at least we can talk about the Engineering Design Process I'm currently in.
+
+I'm currently in the **Creating** Process where I create my Freedom Project which was a 2D Platformer to begin with. The idea that I had in mind as well from Brainstorming was that the user had to move the platforms and only have the sprite jump to avoid obstacles. Another thing is that I have been testing how it works using `http-server`.
+
+## Skills
+**UPDATE on Problem Decomposition**: For Problem Decomposition this was used very efficiently in my plan as it was to simply create one 2D Platformer Level. This plan of course was broken down into four parts and they each have my created deadlines for them. I'll show them again:
+* [x] Create Obstacles using Kaboom (deadline: 3/20)
+* [x] Create a Sprite in Photoshop (deadline: 3/8)
+* [ ] Make my sprite be interactable by user (deadline: 3/25)
+* [ ] Create background (deadline: 4/1)
+
+Like I said earlier, two of the steps are already completed. I just need to do two more and complete the level and I'm good to go beyond MVP.
+
+**Creativity**: I was very creative when I created this sprite for my Freedom Project on different software like Adobe Photoshop. I used pixel art to create a snail character and gave it personality by coloring its shell and giving it legs on wheels. I called this sprite "Snailroller"
+
+
 
 
 
