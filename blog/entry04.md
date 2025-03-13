@@ -82,10 +82,11 @@ I'm currently in the **Creating** Process where I create my Freedom Project whic
 
 Like I said earlier, two of the steps are already completed. I just need to do two more and complete the level and I'm good to go beyond MVP.
 
-**Creativity**: I was very creative when I created this sprite for my Freedom Project on different software like Adobe Photoshop. I used pixel art to create a snail character and gave it personality by coloring its shell and giving it legs on wheels. I called this sprite "Snailroller"
+**Creativity**: I was very creative when I created this sprite for my Freedom Project on different software like Adobe Photoshop. I used pixel art to create a snail character and gave it personality by coloring its shell and giving it legs on wheels. I called this sprite "Snailroller".
 
+<hr>
 
-
+And that just about wraps up our 4th entry. I will try to put more days into my freedom project work. I just have to add more obstacles and then a bakcground and my level is able to go beyond MVP. But until, next time. Bye!
 
 
 [Previous](entry03.md) | [Next](entry05.md)
