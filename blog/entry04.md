@@ -86,8 +86,13 @@ Like I said earlier, two of the steps are already completed. I just need to do t
 
 <hr>
 
-And that just about wraps up our 4th entry. I will try to put more days into my freedom project work. I just have to add more obstacles and then a bakcground and my level is able to go beyond MVP. But until, next time. Bye!
+And that just about wraps up our 4th entry. I will try to put more days into my freedom project work. I just have to add more obstacles and then a background and my level is able to go beyond MVP. But until, next time. Bye!
 
+## Sources
+
+[My Learning Log](../tool/learning-log.md)
+
+[My Freedom Project Code](../index.html)
 
 [Previous](entry03.md) | [Next](entry05.md)
 
