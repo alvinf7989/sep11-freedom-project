@@ -27,14 +27,15 @@
             loadSprite("snailroller", "mysprite.png")
             setGravity(1650)
 
+            setBackground(0, 100, 155);
+
             var player = add([
             sprite("snailroller"),
             body(),
             pos(width()/2.25, height()/4),
             scale(0.25),
             area(),
-            ])
-
+        ])
 
 
 var movePlatform2 = add([
@@ -52,7 +53,7 @@ var movePlatform2 = add([
             rect(104, 104),
             area(),
             outline(4),
-            pos(width()/3.5, height()*0.75),
+            pos(width()/4.5, height()*0.75),
             anchor("botleft"),
             body({ isStatic: true }),
             color(250, 0, 0),
@@ -63,6 +64,28 @@ var movePlatform2 = add([
             rect(104, 104),
             area(),
             outline(4),
+            pos(width()/1.50, height()*0.75),
+            anchor("botleft"),
+            body({ isStatic: true }),
+            color(250, 0, 0),
+            // move(LEFT, 240),
+ ]);
+
+ var movePlatform4 = add([
+            rect(49, 49),
+            area(),
+            outline(4),
+            pos(width()/1.3, height()*0.75),
+            anchor("botleft"),
+            body({ isStatic: true }),
+            color(250, 0, 0),
+            // move(LEFT, 240),
+ ]);
+
+ var movePlatform5 = add([
+            rect(104, 104),
+            area(),
+            outline(4),
             pos(width()/1.70, height()*0.75),
             anchor("botleft"),
             body({ isStatic: true }),
@@ -70,13 +93,12 @@ var movePlatform2 = add([
             // move(LEFT, 240),
  ]);
 
-
-
  onKeyDown("a", () => {
 		movePlatform1.move(-200, 0)
         movePlatform2.move(-200, 0)
         movePlatform3.move(-200, 0)
 })
+
 
 onKeyDown("d", () => {
 		movePlatform1.move(200, 0)
@@ -84,7 +106,9 @@ onKeyDown("d", () => {
         movePlatform3.move(200, 0)
 })
 
-
+onKeyPress("space", () => {
+    player.jump()
+})
         </script>
     </body>
 </html>
