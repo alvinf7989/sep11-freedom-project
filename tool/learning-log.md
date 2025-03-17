@@ -197,7 +197,8 @@ I did also set the gravity to 1650 from one of my practice files. Then, I gave t
             ])
 ```
 
-####
+#### 3/17/25 Working On Project (Day 3)
+So, while I was testing out my sprite and the platforms, I noticed the friction was a bit off between the sprite and the moving platforms. When I move the platforms, the sprite decides to move with them but I don't want that.
 <!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
