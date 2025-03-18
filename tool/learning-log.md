@@ -198,7 +198,35 @@ I did also set the gravity to 1650 from one of my practice files. Then, I gave t
 ```
 
 #### 3/17/25 Working On Project (Day 3)
-So, while I was testing out my sprite and the platforms, I noticed the friction was a bit off between the sprite and the moving platforms. When I move the platforms, the sprite decides to move with them but I don't want that.
+So, while I was testing out my sprite and the platforms, I noticed the friction was a bit off between the sprite and the moving platforms. When I move the platforms, the sprite decides to move with them but I don't want that. So I tried asking Slack for help, but unfortunately no one replied with helpful tips. So, I just said "screw it" and ignored it by adding two more platforms with one being very small and one having the same value as that one platform on the right side.
+```js
+var movePlatform4 = add([
+            rect(49, 49),
+            area(),
+            outline(4),
+            pos(width()/1.3, height()*0.75),
+            anchor("botleft"),
+            body({ isStatic: true }),
+            color(250, 0, 0),
+            // move(LEFT, 240),
+ ]);
+
+ var movePlatform5 = add([
+            rect(104, 104),
+            area(),
+            outline(4),
+            pos(width()/1.70, height()*0.75),
+            anchor("botleft"),
+            body({ isStatic: true }),
+            color(250, 0, 0),
+            // move(LEFT, 240),
+ ]);
+ ```
+ Then I did some basic stuff like change the background to a blue-ish green color by using `setBackground()`. I once had the idea of using color gradient, but I don't think that works with Kaboom. I also made it so the player can press "space" (later to be w) to have the sprite jump.
+
+ Right now, it just looks like I'm trying to have the sprite not fall, by moving the platforms enough for the snail to move and be able to jump and land on platforms. I plan on seeing that the background is temporary, as I want to work on my background from Photoshop.
+ 
+
 <!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
