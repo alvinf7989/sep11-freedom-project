@@ -25,9 +25,16 @@
             import kaboom from "https://unpkg.com/kaboom@3000.0.1/dist/kaboom.mjs";
             kaboom();
             loadSprite("snailroller", "mysprite.png")
+            loadSprite("snow-bg", "snailroll-bg.png")
+
             setGravity(1650)
 
-            setBackground(0, 100, 155);
+            add([
+            sprite("snow-bg"), // Use the loaded sprite
+            // pos(0, 0), // Position at the top-left corner
+            // scale(width() / 1000, height() / 1000), // Scale to fit screen (adjust as needed)
+            // fixed() // Keeps it static when the camera moves
+            ]);
 
             var player = add([
             sprite("snailroller"),
@@ -82,32 +89,25 @@ var movePlatform2 = add([
             // move(LEFT, 240),
  ]);
 
- var movePlatform5 = add([
-            rect(104, 104),
-            area(),
-            outline(4),
-            pos(width()/1.70, height()*0.75),
-            anchor("botleft"),
-            body({ isStatic: true }),
-            color(250, 0, 0),
-            // move(LEFT, 240),
- ]);
-
  onKeyDown("a", () => {
-		movePlatform1.move(-200, 0)
-        movePlatform2.move(-200, 0)
-        movePlatform3.move(-200, 0)
+		movePlatform1.move(-225, 0)
+        movePlatform2.move(-225, 0)
+        movePlatform3.move(-225, 0)
+        movePlatform4.move(0, -200)
 })
 
 
 onKeyDown("d", () => {
-		movePlatform1.move(200, 0)
-        movePlatform2.move(200, 0)
-        movePlatform3.move(200, 0)
+		movePlatform1.move(225, 0)
+        movePlatform2.move(225, 0)
+        movePlatform3.move(225, 0)
+        movePlatform4.move(0, 200)
 })
 
 onKeyPress("space", () => {
-    player.jump()
+    if (player.isGrounded()) {
+        player.jump()
+    }
 })
         </script>
     </body>
