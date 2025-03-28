@@ -222,11 +222,25 @@ var movePlatform4 = add([
             // move(LEFT, 240),
  ]);
  ```
- Then I did some basic stuff like change the background to a blue-ish green color by using `setBackground()`. I once had the idea of using color gradient, but I don't think that works with Kaboom. I also made it so the player can press "space" (later to be w) to have the sprite jump.
+Then I did some basic stuff like change the background to a blue-ish green color by using `setBackground()`. I once had the idea of using color gradient, but I don't think that works with Kaboom. I also made it so the player can press "space" (later to be w) to have the sprite jump.
 
- Right now, it just looks like I'm trying to have the sprite not fall, by moving the platforms enough for the snail to move and be able to jump and land on platforms. I plan on seeing that the background is temporary, as I want to work on my background from Photoshop.
- 
+Right now, it just looks like I'm trying to have the sprite not fall, by moving the platforms enough for the snail to move and be able to jump and land on platforms. I plan on seeing that the background is temporary, as I want to work on my background from Photoshop.
 
+ #### 3/28/25 Working On Project (Day 4)
+Now, I actually did work on this earlier than the 28th, but I forgot to fill in the log, soooo.... The thing I did was remove a platform that was overlapping another platform at the same position. I also made a new objective for the level. Thanks to the friction problem being unsolvable, I made it so the user has to do some puzzling to get the sprite to move to the small square, using the friction and and moving platforms to have him jump over and make it.  But that's not all that I did, I also created a special background from Adobe Photoshop. I wanted to represent a snowy mountain type background and was successfully able to do so. What I did to load this background in was drag it in the freedom project directory and then use the loadSprite() technique like this.
+```js
+loadSprite("snow-bg", "snailroll-bg.png")
+```
+Along with using `add([])` to add the sprite as a background like this.
+```js
+add([
+            sprite("snow-bg"), // Use the loaded sprite
+            // pos(0, 0), // Position at the top-left corner
+            // scale(width() / 1000, height() / 1000), // Scale to fit screen (adjust as needed)
+            // fixed() // Keeps it static when the camera moves
+            ]);
+```
+I'll tinker with the other properties later.
 <!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
