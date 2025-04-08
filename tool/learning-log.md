@@ -146,7 +146,7 @@ This would allow my sprite to move left and right when I click the left and righ
 
 Also, to make things more organized, instead of having to press "w" to make the sprite jump, I had the "up" arrow be pressed to make the sprite jump. I just put the word up in the `onKeyPress`.
 
-#### 2/28/25: Working On Project (Day 1)
+### 2/28/25: Working On Project (Day 1)
 I am back after Day 9, but instead of working with my tool, I'm starting on creating my project. So, I first set up a plan for this Project. This plan was to create a simple level for my 2D Platformer Project. What's different about my project is that instead of moving the sprite, the user has to move the obstacles and the player has to jump and not fall off. I broke this plan into few objectives.
 * Create Obstacles
 * Create Sprite
@@ -180,7 +180,7 @@ onKeyDown("d", () => {
 ```
 I also made the platforms move faster by upping the speed 100 more than the speed given on my practice tool files.
 
-#### 3/3/25 Working On Project (Day 2)
+### 3/3/25 Working On Project (Day 2)
 Alright, it's a new day and I finally created my sprite. So, I created a sprite in Adobe Photoshop for the users to play as as part of my plan for this Freedom project. This sprite represents a snail with a colored shell along with legs that have wheels on them. Now, I put this sprite in my `index.html` by using the `loadSprite()` concept. I called it "snailroller" along with naming the source of the photo, like this:
 ```js
             loadSprite("snailroller", "mysprite.png")
@@ -197,7 +197,7 @@ I did also set the gravity to 1650 from one of my practice files. Then, I gave t
             ])
 ```
 
-#### 3/17/25 Working On Project (Day 3)
+### 3/17/25 Working On Project (Day 3)
 So, while I was testing out my sprite and the platforms, I noticed the friction was a bit off between the sprite and the moving platforms. When I move the platforms, the sprite decides to move with them but I don't want that. So I tried asking Slack for help, but unfortunately no one replied with helpful tips. So, I just said "screw it" and ignored it by adding two more platforms with one being very small and one having the same value as that one platform on the right side.
 ```js
 var movePlatform4 = add([
@@ -226,7 +226,7 @@ Then I did some basic stuff like change the background to a blue-ish green color
 
 Right now, it just looks like I'm trying to have the sprite not fall, by moving the platforms enough for the snail to move and be able to jump and land on platforms. I plan on seeing that the background is temporary, as I want to work on my background from Photoshop.
 
- #### 3/28/25 Working On Project (Day 4)
+ ### 3/28/25 Working On Project (Day 4)
 Now, I actually did work on this earlier than the 28th, but I forgot to fill in the log, soooo.... The thing I did was remove a platform that was overlapping another platform at the same position. I also made a new objective for the level. Thanks to the friction problem being unsolvable, I made it so the user has to do some puzzling to get the sprite to move to the small square, using the friction and and moving platforms to have him jump over and make it.  But that's not all that I did, I also created a special background from Adobe Photoshop. I wanted to represent a snowy mountain type background and was successfully able to do so. What I did to load this background in was drag it in the freedom project directory and then use the loadSprite() technique like this.
 ```js
 loadSprite("snow-bg", "snailroll-bg.png")
@@ -241,6 +241,18 @@ add([
             ]);
 ```
 I'll tinker with the other properties later.
+### 4/8/25 Working On Project (Day 5)
+We are near the end for my freedom project. For this day, I did nothing much, but change the color and stroke of the small square. This small square will be green to represent the finish goal. If the snail sprite touches it, the player wins.
+
+Here are the outline & color properties that were changed:
+```js
+outline(2),
+color(0, 100, 0),
+```
+This isn't the only thing I changed in the Project. I changed the background positioning and scale. (Told you I would tinker with the other properties). Now in the beginning the mountain background only showed one mountaintop when I wanted to show the whole background. So, I tinkered with the scale and positioning, (mostly the scale) and used the width & height division to make it fit.
+```js
+scale(width() / 2000, height() / 1500)
+```
 <!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
