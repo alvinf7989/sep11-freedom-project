@@ -104,10 +104,43 @@ onKeyDown("d", () => {
         movePlatform4.move(0, 200)
 })
 
+onUpdate(() => {
+        if (player.pos.y > height()) {
+            go("gameover");
+        }
+    });
+
 onKeyPress("space", () => {
     if (player.isGrounded()) {
         player.jump()
     }
+})
+
+scene("gameover", () => {
+    add([
+        text("GAME OVER!", { size: 48 }),
+        pos(center()),
+        anchor("center"),
+    ]);
+
+    add([
+        setBackground(255, 100, 10),
+        text("Refresh to start over", { size: 24 }),
+        pos(center().x, center().y + 60),
+        anchor("center"),
+    ]);
+});
+
+
+
+scene("congrats", () => {
+    add([
+        setBackground(10, 10, 255),
+        text("CONGRATULATIONS!", {size: 48}),
+        text("You've completed the level", {size: 24}),
+        pos(center()),
+        anchor("center"),
+    ])
 })
 
         </script>
