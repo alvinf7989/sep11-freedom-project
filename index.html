@@ -86,6 +86,7 @@ var movePlatform2 = add([
             anchor("botleft"),
             body({ isStatic: true }),
             color(0, 100, 0),
+            "movePlatform"
             // move(LEFT, 240),
  ]);
 
@@ -103,6 +104,11 @@ onKeyDown("d", () => {
         movePlatform3.move(235, 0)
         movePlatform4.move(0, 200)
 })
+
+player.onCollide("movePlatform", () => {
+    go("congrats");
+});
+
 
 onUpdate(() => {
         if (player.pos.y > height()) {
@@ -136,8 +142,7 @@ scene("gameover", () => {
 scene("congrats", () => {
     add([
         setBackground(10, 10, 255),
-        text("CONGRATULATIONS!", {size: 48}),
-        text("You've completed the level", {size: 24}),
+        text("CONGRATULATIONS! You've completed the level!", {size: 48}),
         pos(center()),
         anchor("center"),
     ])
