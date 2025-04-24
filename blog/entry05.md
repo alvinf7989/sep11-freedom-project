@@ -25,22 +25,29 @@ var movePlatform4 = add([
 
  Also because of the friction issue with my sprite, my objective is now different. Instead of moving the platforms while the sprite stands still, the user must try to have the sprite not fall by moving the platforms enough for the snail to move and be able to jump and land on platforms.
 
- ## Working On Project (Day 4)
- Day 4 was the day I learned to import my own background. First off, in day 3, I added a platform that had the same properties as another platform. That meant they were overlapping. So, I removed that platform and after doing so, I created a unique background to Kaboom using a software called Adobe Photoshop. For the background, I wanted to represent a snowy mountain type background and was successfully able to do so. If you wish to see what this background looked like, check the sources on the bottom.
+## Working On Project (Day 4)
+Day 4 was the day I learned to import my own background. First off, in day 3, I added a platform that had the same properties as another platform. That meant they were overlapping. So, I removed that platform and after doing so, I created a unique background to Kaboom using a software called Adobe Photoshop. For the background, I wanted to represent a snowy mountain type background and was successfully able to do so. If you wish to see what this background looked like, check the sources on the bottom.
 
- Now the way I put this background in my project was by using `loadSprite()` function to load something like this:
- ```js
- loadSprite("snow-bg", "snailroll-bg.png")
+Now the way I put this background in my project was by using `loadSprite()` function to load something like this:
+```js
+loadSprite("snow-bg", "snailroll-bg.png")
 ```
 Along with using `add([])` to add the sprite as a background like this.
 ```js
 add([
-            sprite("snow-bg"), // Use the loaded sprite
-            // pos(0, 0), // Position at the top-left corner
-            // scale(width() / 1000, height() / 1000), // Scale to fit screen (adjust as needed)
-            // fixed() // Keeps it static when the camera moves
+            sprite("snow-bg"),
+            // pos(0, 0),
+            // scale(width() / 1000, height() / 1000),
             ]);
 ```
+## Working On Project (Day 5)
+This day, wasn't much for me. All I did was tinker with a few features and color code the platforms. First, I changed the stroke of one moving platform. This platform will also move up and down using the function below:
+```js
+onKeyDown("d", () => {
+    movePlatform4.move(0, 200)
+})
+
+
 
 ## Sources
 
