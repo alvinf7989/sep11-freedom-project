@@ -47,7 +47,24 @@ onKeyDown("d", () => {
     movePlatform4.move(0, 200)
 })
 
+onKeyDown("a", () => {
+        movePlatform4.move(0, -200)
+})
+```
+Another thing I did was color code it by making it green and alsing having a smaller stroke with these properties:
+```js
+outline(2),
+color(0, 100, 0),
+```
+The reason I made the one square green was because it will represent the finish goal when the user lands on it.
 
+Finally, the last thing I did was fix the properties of the background. It used to show only one mountain top, but I wanted it to show the rest of the mountains. So, I uncommented the `pos(0,0)` and messed around with what the width and height of the `scale()` property would be divided by.
+```js
+scale(width() / 2000, height() / 1500)
+```
+
+## Working On Project (Day 6)
+Even though this wasn't stated on my 
 
 ## Sources
 
