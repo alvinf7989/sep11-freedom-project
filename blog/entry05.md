@@ -64,9 +64,57 @@ scale(width() / 2000, height() / 1500)
 ```
 
 ## Working On Project (Day 6)
-Even though this wasn't stated on my 
+Even though this wasn't stated on my learning log, I have done my final touches on my freedom Project. See, what I did was create two screens and I used new functions called `scene()` & `go("scenename")`. Inside the `scene` function I created a game over screen using conditions for when the sprite would fall off screen. This game over screen was orange and it told the user to refresh the window to start again.
+```js
+scene("gameover", () => {
+    add([
+        text("GAME OVER!", { size: 48 }),
+        pos(center()),
+        anchor("center"),
+    ]);
+
+    add([
+        setBackground(255, 100, 10),
+        text("Refresh to start over", { size: 24 }),
+        pos(center().x, center().y + 60),
+        anchor("center"),
+    ]);
+});
+```
+As seen, I had to add two different `add([])` functions just to place lines of text. I then put this in an `onUpdate()` function which updates the status of anything. I chose my sprite and put an if statement like this.
+```js
+        if (player.pos.y > height()) {
+            go("gameover");
+        }
+```
+The `go()` function sends the user to the scene that's inside the parenthesis.
+
+Now that that was done, I needed to add a congratulations screen for when the user made it to the green square. I used the sae `scene()` and `go()` methods, but instead of using `onUpdate()` to create a conditional for the sprite, I used a `.onCollide()` function. Inside the parenthesis is where you would put the platform the sprite is on and have it do something special when on it. This time, there was no `if` statement because the `.onCollide` function was a conditional on its own. Here's how I used it:
+```js
+player.onCollide("movePlatform", () => {
+    go("congrats");
+});
+```
+In the "congratulations" screen, it was blue and it displayed a line of text saying, "CONGRATULATIONS! You've completed the level!".
+
+And that wraps up my Freedom Project! But, we are not done yet, because I have to adress the EDP I'm in & my Skills.
+
+## EDP
+After completing my Freedom Project, I have also been testing it to make sure that it works just like the way I wanted it to. So, now that I have been Testing this project, that means I'm on the **Testing** part of the Engineering Design Process. Now, all that's left is to make some improvements and then communicate the results.
+
+## Skills
+
+* **Growth mindset**: Growth mindset is a new skill that I have obtained. Basically, this skill is when I act patient and am able to ask for help, I used the Growth mindset in my MVP, when trying to fix the friction issue on my sprite when it was on the platforms. Sure, that didn't work, but that was when **Embracing Failure** came in and I used this as I startegic way foor my sprite to go to platforms.
+
+* **How to Google** Now, this one was a little strange because I mostly looked back at Kaboom to look at all the ways to solve these problems with my sprite & platform movements. My question was if this counts as a "How to Google" skill becuase I looked up Kaboom tutorials and how to fix things. Another thing I did on Google was watch a few videos. One thing I should've mentioned earlier was that I watched videos on how to draw a background and add it for Kaboom. I even saw a pixel art tutorial, which helped me create my snail sprite. The video link is in the Sources.
+
+<hr>
+
+And that has just wrapped up my Freedom Project. I do feel that this isn't the final entry because there's still time to improve and present our project to (I assume) Seniors like last time. But thank you for reading the blog entry all the way down and I'll hopefully be here on Entry 6. So, until next time. Bye!
 
 ## Sources
+
+[Pixel Art Tutorial](https://www.youtube.com/watch?v=q2IxC0odOkU&t=2s)
 
 [My Learning Log](../tool/learning-log.md)
 
