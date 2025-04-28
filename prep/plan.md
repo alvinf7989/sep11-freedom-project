@@ -17,9 +17,9 @@
 
 #### Beyond MVP
 
-- [ ] Create Background Music using Ableton Live
-- [ ] Create Unique Obstacles in Photoshop
-- [ ] Create Background in Photoshop
+- [ ] Add another green platform
+- [ ] Brighten colors of green squares
+- [ ] Alert the player to give them instructions
 
 
 <!-- EXAMPLE
