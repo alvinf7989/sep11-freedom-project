@@ -9,17 +9,17 @@
 
 #### MVP
 
-- [ ] Create Level (deadline: 4/11)
+- [x] Create Level (deadline: 4/11)
   - [x] Create Obstacles using Kaboom (deadline: 3/20)
   - [x] Create a Sprite in Photoshop (deadline: 3/8)
-  - [ ] Make my sprite be interactable by user (deadline: 3/15)
-  - [ ] Create background (deadline: 4/1)
+  - [x] Make my sprite be interactable by user (deadline: 3/15)
+  - [x] Create background (deadline: 4/1)
 
 #### Beyond MVP
 
-- [ ] Add another green platform
-- [ ] Brighten colors of green squares
 - [ ] Alert the player to give them instructions
+- [ ] Add an alert on the right square for a trick on how to win.
+- [ ] Brighten colors of green squares
 
 
 <!-- EXAMPLE
