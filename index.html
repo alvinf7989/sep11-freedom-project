@@ -56,6 +56,7 @@ var movePlatform2 = add([
             body({ isStatic: true }),
             color(250, 0, 0),
             // move(LEFT, 240),
+            "startPlatform"
  ]);
 
  var movePlatform1 = add([
@@ -107,6 +108,7 @@ onKeyDown("d", () => {
         movePlatform3.move(235, 0)
         movePlatform4.move(0, 200)
 })
+
 
 player.onCollide("movePlatform", () => {
     go("congrats");
