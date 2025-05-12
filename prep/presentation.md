@@ -9,11 +9,12 @@
 ## Process
 * Show a few code snippets such as the platforms and how they move
 * Screenshot of the challenging part like how I used the snail's friction tp have users play the game.
-* 
+* Show what I did beyond MVP
 
 ## Conclusion
-*
-
+* [Url to Project]
+* Consider the users playing this. (They motivate me to improve Beyond MVP)
+* Some problems can be fixed to become Viable
 <!-- EXAMPLE
 
 ## Hook
