@@ -7,8 +7,9 @@
 * Link to my project along with a screenshot of the project
 
 ## Process
-* Show a few code snippets such as 
-* Screenshot of the challenging part
+* Show a few code snippets such as the platforms and how they move
+* Screenshot of the challenging part like how I used the snail's friction tp have users play the game.
+* 
 
 ## Conclusion
 *
