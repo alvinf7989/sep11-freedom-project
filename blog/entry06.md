@@ -39,7 +39,13 @@ And that is just about it for everything I've done in this freedom Project, It's
 
 The current problem is that next year, we're supposedly not allowed to use our personal laptops, which makes it harder for students to share creative ideas in special tools only accessed in our personal devices. (seriously the NYCDOE should reconsider).
 
+## EDP
+So,  now that we are done with this Freedom Project, I can finally say that I''ve completed the full EDP after ending on Communicating the results. I was first improving my Project after some people tested it out and provided a few Glows & grows. This Improvement was known as going Beyond MVP.
+
+Then, I was able to communicate the results by going on the Presentation and the Elevator Expo, demonstrating my Project to the SEP11 Students from class and the Judges from the Cafeteria. That wraps up my Engineering Design Process!
+
 ## Skills
+* **Organization** Now, organization was a skill That I have used in my presentation 
 
 ## Sources
 [Presentation](https://docs.google.com/presentation/d/1AlaNYsT6wpVIKgw1E3pqW6uN0OmTnKSJNq2D0T91fFk/edit?slide=id.p#slide=id.p)
