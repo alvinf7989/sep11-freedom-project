@@ -37,7 +37,7 @@ So, how I did this was that on my personal laptop, I would show the project scre
 
 And that is just about it for everything I've done in this freedom Project, It's amazing how we've gone through learning all the basics in Kaboom.js and I like the idea of using special tools like Adobe Photoshop to make the sprite and background and import it in my terminal.
 
-The current problem is that next year, we're supposedly not allowed to use our personal laptops, which makes it harder for students to share creative ideas in special tools only accessed in our personal devices. (seriously the NYCDOE should reconsider).
+The current problem is that next year, we're supposedly not allowed to use our personal laptops, which makes it harder for students to share creative ideas in special tools only accessed in our personal devices. (seriously, the NYCDOE should reconsider).
 
 ## EDP
 So,  now that we are done with this Freedom Project, I can finally say that I''ve completed the full EDP after ending on Communicating the results. I was first improving my Project after some people tested it out and provided a few Glows & grows. This Improvement was known as going Beyond MVP.
@@ -45,12 +45,20 @@ So,  now that we are done with this Freedom Project, I can finally say that I''v
 Then, I was able to communicate the results by going on the Presentation and the Elevator Expo, demonstrating my Project to the SEP11 Students from class and the Judges from the Cafeteria. That wraps up my Engineering Design Process!
 
 ## Skills
-* **Organization** Now, organization was a skill That I have used in my presentation 
+* **Organization**: Now, organization was a skill that I have used in my presentation, and how I used it was the same way that I did when planning mky Project. (kinda) I listed 4 steps in order and put bullet points for what I would do for each step. These 4 steps were Hook, Product, Process, & conclusion. If you want to know what I put in each of these, see my Presentation chapter by scrolling up.
+* **Consideration**: This skill is also a takeaway from me because it really helped benefit my project. There was an activity where students try each other's projects and give feedback. Their feedback helps me improve and consider students playing this. Because of this, I was able to add instructions via alerts to my code.
+
+<hr>
+And that just about wraps up all of my entries for this Freedom Project. It's amazing how we've gone through learning about the simple Javascript tools to making a whole game using the ideas of Kaboom.js. And I couldn't have done the final touches without feedback. The feedback helps me consider and acquire new skills throughout these entries. And I have finished my blog overview before doing this, so you can check the overview down below on Sources. But, anyways everything has been finished from writeups to entries. So, I hope to see you next year. But until next time, I'm Alvin Frias, and this has been my Blog Entries.
 
 ## Sources
 [Presentation](https://docs.google.com/presentation/d/1AlaNYsT6wpVIKgw1E3pqW6uN0OmTnKSJNq2D0T91fFk/edit?slide=id.p#slide=id.p)
 
+[Presentation Prepping](../prep/presentation.md)
+
 [Product](https://alvinf7989.github.io/sep11-freedom-project/)
+
+[Blog Overview](../README.md)
 
 
 [Previous](entry05.md) | [Next](entry07.md)
