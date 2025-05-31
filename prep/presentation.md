@@ -1,7 +1,7 @@
 # Presentation Plan
 
 ## Hook
-* Talk about how normal 2d platformers have you moving the character, but never the platforms unlike my 2D Platformer project. I'll include a few gifs of 2D Platformer examples.
+*  I'll include a few gifs of 2D Platformer examples.
 
 ## Product
 * Link to my project along with a screenshot of the project
